@@ -19,7 +19,6 @@ function Coundown() {
     stop();
 
     const end = new Date(target).getTime();
-    console.log(end);
 
     const tick = () => {
       const remaning = end - Date.now();
